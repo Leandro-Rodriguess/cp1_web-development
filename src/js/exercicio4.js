@@ -1,12 +1,17 @@
-let vingadores = [
-    "Thor",
-    "Hulk",
-    "Capitão América",
-    "Homem aranha",
-    "Homem de ferro"
-];
-console.log("Exercício 4");
-console.log("Lista dos melhores vingadores: ");
-console.log(vingadores);
 
-console.log("----------------------------------------")
+function executarEx04 () {
+
+    let vingadores = ["Thor", "Hulk", "Capitão América", "Arqueiro", "Viúva Negra"];
+    let dc = ["Batman", "Superman", "Flash", "Aquaman", "Lanterna Verde"];
+    
+    let prefere = prompt (`O que voce prefere marvel ou dc ? `);
+
+    if (prefere == `marvel`) {
+        alert (vingadores)
+    }
+
+    else {
+        alert (dc)
+    }
+        
+}
